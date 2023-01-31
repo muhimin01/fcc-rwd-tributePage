@@ -1,0 +1,56 @@
+* {
+    color: #f5f5f5;
+}
+
+body {
+    background-image: url(https://wallup.net/wp-content/uploads/2017/03/15/51592-drawing-forest.jpg);
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img-div img, #img-div figcaption {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    border: 5px solid #f5f5f5;
+    /*max-width: 100;*/
+    max-width: 250px;
+    max-height: 250px;
+}
+
+hr {
+    max-width: 250px;
+}
+
+fieldset {
+    width: 50%;
+    margin: auto;
+}
+
+legend {
+    margin-bottom: -25px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.quote {
+    color: gray;
+    font-style: italic;
+}
