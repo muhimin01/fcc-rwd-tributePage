@@ -29,7 +29,8 @@ hr {
 }
 
 fieldset {
-    width: 50%;
+    width: 55%;
+    min-width: 350px;
     margin: auto;
 }
 
@@ -52,5 +53,17 @@ a:hover {
 
 .quote {
     color: gray;
+    transition: 0.1s;
     font-style: italic;
+}
+
+.quote:hover {
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 420px) {
+    fieldset {
+        font-size: small;
+        min-width: 300px;
+    }
 }
